@@ -1,7 +1,1 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (grain, long vs. wide, vectorized .str methods,
-coerce, NaT, pd.to_datetime format, .dt, concat, ignore_index, group by, named
-aggregation, reset_index, pivot_table, fill_value, melt, lineage), and make it
-actionable.
+This assignment helped me understand how data moves through a pipeline while maintaining its grain and lineage. I learned to use vectorized .str methods and pd.to_datetk]ime() with coerce to clean data efficiently and handle invalid values as Nat. Using concat with ignore_index=true, groupby() with named aggregation, and reset_index() showed me how to combine and summarize data. I aslo learned the differrence between long and wide data by using pivot_table() with fill_value and then converting it back with melt(). In the future, I will test each step as I build it so I can find and fix problems earlier.
